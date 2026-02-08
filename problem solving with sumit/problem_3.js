@@ -3,6 +3,11 @@ function finalScore(omr){
     {
         return 'Invalid';
     }
+    else if(typeof omr.right !=="number" || typeof omr.wrong !=="number" || typeof omr.skip !=="number" )
+    {
+        return 'Invalid';
+
+    }
     else{
         let total=omr.right+omr.wrong+omr.skip;
         if(total===100)
@@ -18,6 +23,7 @@ function finalScore(omr){
     }
 
 }
+
 
 let val = 
 ["Raj","sda"] 

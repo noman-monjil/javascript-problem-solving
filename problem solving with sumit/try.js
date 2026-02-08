@@ -24,12 +24,4 @@
 
 // let result=noman(str);
 let str="1elll 1ohoew"
-console.log(str.length);
-console.log( str.charCodeAt(0));
-// let yes=str.includes(" ")
-if(str.includes(" "))
-{
-    console.log("true")
-}else {
-     console.log("trudfsae")
-}
+
